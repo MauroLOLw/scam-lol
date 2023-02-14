@@ -1,0 +1,7 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua%22))()
+local Window = Library.CreateLib("ForceTrade", "Synapse")
+
+local ForceTrade= Window:NewTab("ForceTrade")
+local ForceTradeSection = ForceTrade:NewSection("ForceTrade")
+
+ForceTradeSection:NewButton("FORCE TRADE", "FORCE TRADE!!", function()
